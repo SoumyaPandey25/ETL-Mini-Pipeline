@@ -1,43 +1,78 @@
-# ETL-Mini-Pipeline
+# 📊 ETL MINI PIPELINE
 
-## Objective
-Create a simple ETL process that extracts raw data, performs cleaning and transformations, and loads structured outputs into CSV files and a SQLite database.
-
----
-
-## Tech Stack
-- Python  
-- pandas  
-- sqlite3  
-- Jupyter Notebook / Colab  
+A lightweight ETL (Extract, Transform, Load) pipeline built using Python and Pandas for automating data extraction, cleaning, transformation, and loading workflows.
 
 ---
 
-## Files in Repository
-- `Churn_Modelling.csv` → Raw dataset  
-- `processed_data.csv` → Cleaned master data  
-- `customers.csv` → Customer information  
-- `accounts.csv` → Account details  
-- `churn.csv` → Churn status  
-- `database.sqlite` → Database with tables  
-- `task14_etl.ipynb` → ETL pipeline implementation  
+# 🚀 PROJECT OVERVIEW
+
+This project demonstrates a basic ETL workflow commonly used in data engineering and analytics pipelines. The pipeline processes structured data by extracting raw datasets, applying cleaning and transformation operations, and preparing the final processed output for analysis.
 
 ---
 
-## ETL Steps
-**Extract:** Load the original CSV file.  
-**Transform:** Remove duplicates, handle missing values, standardize columns, create derived features.  
-**Load:** Save processed data, generate separate tables, and insert them into SQLite.
+# ⚙️ FEATURES
+
+* 📥 Data Extraction from CSV files
+* 🧹 Data Cleaning & Preprocessing
+* 🔄 Data Transformation using Pandas
+* 📊 Structured Data Processing Workflow
+* 🐍 Python-based Automation
+* 📁 Organized ETL Pipeline Structure
 
 ---
 
-## How to Run
-Open `task14_etl.ipynb` and run the cells in order.  
-All output files will be generated automatically.
+# 🛠️ TECH STACK
+
+* Python
+* Pandas
+* Jupyter Notebook
 
 ---
 
-## Outcome
-Shows understanding of data cleaning, transformation, and loading for analytics workflows.
+# 📂 PROJECT STRUCTURE
+
+```bash
+ETL-Mini-Pipeline/
+│── data/
+│── notebooks/
+│── output/
+│── README.md
+```
 
 ---
+
+# ▶️ HOW TO RUN
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/SoumyaPandey25/etl-mini-pipeline.git
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
+pip install pandas
+```
+
+## 3️⃣ Run the Project
+
+Run the Jupyter Notebook or Python script to execute the ETL pipeline.
+
+---
+
+# 📈 LEARNING OUTCOMES
+
+* Understanding ETL workflow fundamentals
+* Working with structured datasets
+* Performing data cleaning and transformation
+* Building basic data engineering pipelines
+
+---
+
+# 📌 FUTURE IMPROVEMENTS
+
+* Add database integration
+* Implement automated scheduling
+* Add logging and error handling
+* Deploy pipeline on cloud platforms
